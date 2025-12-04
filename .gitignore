@@ -1,0 +1,19 @@
+# venv
+.venv/
+venv/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# data and models
+data/
+models/
+
+# misc
+*.pkl
+*.csv
