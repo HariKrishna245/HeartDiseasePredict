@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report
 
-df = pd.read_csv('cardio_train.csv', sep=';')
+df = pd.read_csv('data/cardio_train.csv', sep=';')
 df.drop('id', axis=1, inplace=True)
 df['age'] = (df['age'] / 365).astype(int)
 
