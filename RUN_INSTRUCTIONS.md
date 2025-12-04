@@ -5,7 +5,7 @@ git clone https://github.com/HariKrishna245/HeartDiseasePredict.git
 cd HeartDiseasePredict
 
 
-# 2️⃣ (OPTIONAL BUT RECOMMENDED) CREATE A VIRTUAL ENVIRONMENT
+# 2️⃣ (OPTIONAL) CREATE A VIRTUAL ENVIRONMENT
 
 
 # Windows:
