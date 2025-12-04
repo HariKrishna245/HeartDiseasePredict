@@ -45,43 +45,28 @@ Each step is modularized into separate Python scripts (`step1_preprocessing.py` 
 HeartDiseasePredict/
 │
 ├── src/
-│   ├── heart_gui.py                  # Tkinter GUI for real-time predictions
-│   ├── step1_preprocessing.py        # Cleans and preprocesses raw data
-│   ├── step2_visualization.py        # Generates EDA plots
-│   ├── step3_correlation.py          # Creates correlation heatmaps
-│   ├── step4_model_comparison.py     # Trains & compares ML models
-│   ├── step5_final_model.py          # Trains the final chosen model
-│   └── step6_save_model.py           # Saves model.pkl & scaler.pkl
+│   ├── heart_gui.py                  
+│   ├── step1_preprocessing.py       
+│   ├── step2_visualization.py       
+│   ├── step3_correlation.py         
+│   ├── step4_model_comparison.py    
+│   ├── step5_final_model.py         
+│   └── step6_save_model.py         
 │
-├── data/                             # Contains dataset (local only, ignored in Git)
+├── data/                             
 │   └── cardio_train.csv
 │
-├── models/                           # Saved ML model and scaler (local only, ignored)
+├── models/                           
 │   ├── model.pkl
 │   └── scaler.pkl
 │
-├── assets/                           # Screenshots & visuals (optional)
+├── assets/                          
 │   ├── gui_screenshot.png
 │   └── eda_plot.png
 │
-├── .gitignore                        # Excludes unnecessary folders/files
-├── README.md                         # Project documentation (this file)
-├── RUN_INSTRUCTIONS.md               # Detailed run commands
-└── requirements.txt                  # Python dependencies
+├── .gitignore                        
+├── README.md                         
+├── RUN_INSTRUCTIONS.md               
+└── requirements.txt                  
 
-
-## 📸 Screenshots
-
-### 🔹 1. GUI – Heart Disease Prediction Application  
-![GUI Screenshot](assets/gui_screenshot.png)
-
----
-
-### 🔹 2. EDA – Visualization Example  
-![EDA Plot](assets/eda_visualization.png)
-
----
-
-### 🔹 3. Correlation Heatmap  
-![Correlation Heatmap](assets/correlation_heatmap.png)
 
