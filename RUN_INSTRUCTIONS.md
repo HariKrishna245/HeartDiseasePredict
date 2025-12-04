@@ -1,4 +1,3 @@
-# 🚀 Run Instructions
 
 ## 1️⃣ Clone the Project
 git clone https://github.com/HariKrishna245/HeartDiseasePredict.git
