@@ -1,12 +1,12 @@
 # ------------------------------------------------------------
 # 1️⃣ CLONE THE PROJECT
-# ------------------------------------------------------------
+
 git clone https://github.com/HariKrishna245/HeartDiseasePredict.git
 cd HeartDiseasePredict
 
 # ------------------------------------------------------------
 # 2️⃣ (OPTIONAL BUT RECOMMENDED) CREATE A VIRTUAL ENVIRONMENT
-# ------------------------------------------------------------
+
 
 # 🪟 Windows:
 python -m venv venv
@@ -18,12 +18,12 @@ source venv/bin/activate
 
 # ------------------------------------------------------------
 # 3️⃣ INSTALL ALL REQUIRED PYTHON PACKAGES
-# ------------------------------------------------------------
+
 pip install -r requirements.txt
 
 # ------------------------------------------------------------
 # 4️⃣ (OPTIONAL) RUN EACH MACHINE LEARNING PIPELINE STEP
-# ------------------------------------------------------------
+
 
 # Step 1: Data preprocessing
 python src/step1_preprocessing.py
@@ -39,7 +39,7 @@ python src/step4_model_comparison.py
 
 # ------------------------------------------------------------
 # 5️⃣ TRAIN THE FINAL MACHINE LEARNING MODEL
-# ------------------------------------------------------------
+
 python src/step5_final_model.py
 
 # This generates:
@@ -47,13 +47,13 @@ python src/step5_final_model.py
 #  → models/scaler.pkl
 
 # ------------------------------------------------------------
-# 6️⃣ SAVE THE MODEL (if needed)
-# ------------------------------------------------------------
+# 6️⃣ SAVE THE MODEL 
+
 python src/step6_save_model.py
 
 # ------------------------------------------------------------
 # 7️⃣ RUN THE TKINTER GUI APPLICATION
-# ------------------------------------------------------------
+
 python src/heart_gui.py
 
 # GUI will open → Enter patient details → Click Predict
