@@ -8,11 +8,11 @@ cd HeartDiseasePredict
 # 2️⃣ (OPTIONAL BUT RECOMMENDED) CREATE A VIRTUAL ENVIRONMENT
 
 
-# 🪟 Windows:
+# Windows:
 python -m venv venv
 venv\Scripts\activate
 
-# 🍎 macOS / 🐧 Linux:
+# macOS / Linux:
 python3 -m venv venv
 source venv/bin/activate
 
